@@ -5,7 +5,7 @@ php:
   - "8.0"
 
 install:
-  - composer update
+  - composer install
 
 script:
   - ./vendor/bin/phpcs
