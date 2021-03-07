@@ -1,0 +1,28 @@
+{
+    "name": "ivanitch/example",
+    "description": "A Tutorial for Developing a Package Using Composer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sergey Ivanov",
+            "email": "ivanitch.mail@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ivanitch\\Example\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "9999999-dev",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0",
+        "roave/security-advisories": "dev-latest"
+    }
+}
