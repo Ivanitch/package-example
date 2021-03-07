@@ -2,6 +2,7 @@
     "name": "ivanitch/example",
     "description": "A Tutorial for Developing a Package Using Composer",
     "type": "library",
+    "license": "Apache-2.0",
     "authors": [
         {
             "name": "Sergey Ivanov",
