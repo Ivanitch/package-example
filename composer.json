@@ -8,7 +8,7 @@
             "email": "ivanitch.mail@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Ivanitch\\Example\\": "src/"
@@ -18,6 +18,9 @@
         "psr-4": {
             "Test\\": "tests/"
         }
+    },
+    "require": {
+        "php": ">=7.4"
     },
     "require-dev": {
         "codeception/codeception": "9999999-dev",
