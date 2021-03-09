@@ -21,7 +21,7 @@
         }
     },
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.4"
     },
     "require-dev": {
         "codeception/codeception": "^4.1.9",
@@ -29,6 +29,7 @@
         "codeception/module-asserts": "^1.0.0",
         "roave/security-advisories": "dev-latest",
         "squizlabs/php_codesniffer": "^3.5.8",
-        "phpstan/phpstan": "^0.12.80"
+        "phpstan/phpstan": "^0.12.80",
+        "nunomaduro/phpinsights": "^1.14"
     }
 }
